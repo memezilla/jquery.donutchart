@@ -36,7 +36,7 @@
         $(this).css("position","relative");
         $(this).css("width",this.donutchartsettings.size+"px");
         $(this).css("height",this.donutchartsettings.size+"px");
-        $(this).html("<canvas width='"+this.donutchartsettings.size+"' height='"+this.donutchartsettings.size+"'></canvas><div style='position:absolute;top:0;left:0;line-height:"+this.donutchartsettings.size+"px;text-align:center;width:"+this.donutchartsettings.size+"px;font-family:Arial,sans-serif;font-size:"+this.donutchartsettings.textsize+"px;font-weight:bold;'></div>");
+        $(this).html("<canvas width='"+this.donutchartsettings.size+"' height='"+this.donutchartsettings.size+"'></canvas><div style='position:absolute;top:0;left:0;line-height:"+this.donutchartsettings.size+"px;text-align:center;width:"+this.donutchartsettings.size+"px;font-family:Arial,sans-serif;font-size:"+this.donutchartsettings.textsize+"px;'></div>");
       
         var canvas = $("canvas",this).get(0);
       
